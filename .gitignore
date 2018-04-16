@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+/node_modules
+/mpn-packages-offline-cache
+make_account.js
