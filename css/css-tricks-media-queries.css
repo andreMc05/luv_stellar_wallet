@@ -1,0 +1,102 @@
+/* ------ CSS Media Queries 2019 ------ */
+/*
+Source: CSS-Tricks
+URL: https"//css=tricks.com/snippets/css/media-queries-for-standard-devices/
+Date of Article: July, 23, 2016
+Date Used: Aug 24, 2017
+*/
+
+/*
+Laptop Settings
+*/                                        
+
+/* Non-Rretina Screens */
+@media screen
+and (min-device-width: 1200px)
+and (min-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Rretina Screens */
+@media screen
+and (min-device-width: 1200px)
+and (min-device-width: 1600px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (min-resolution: 192dpi){
+}
+
+/*
+iPad Settings
+*/                                        
+
+/* -------- iPad mini -------- */                                     
+/* Portriait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Portriait */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: portriait)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* -------- iPad 1 and 2 -------- */                               
+/* Portriait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Portriait */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: portriait)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* -------- iPad 3 and 4 -------- */                               
+/* Portriait and Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Portriait */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: portriait)
+and (-webkit-min-device-pixel-ratio: 1){
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 768px)
+and (min-device-width: 1024px)
+and (orientation: landscape)
+and (-webkit-min-device-pixel-ratio: 1){
+}

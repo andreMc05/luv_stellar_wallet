@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/html5-resets.css" type="text/css">
+    <script src="../../../js/jStorage/jStorage.js"></script>
+
+    <style>
+        body{
+            background: url("images/OOKI-3200-x-1333.jpg");
+            font-family: verdana, Helvetica, sans-serif;
+            font-size: 12px;
+            line-height: 40px;
+        }
+
+        button, input[type="text"]{
+            padding: 10px;
+            border: 1px solid #d6d1cc;
+        }
+        
+        #luv-container{
+            width: 510px;
+            margin: 105px auto;
+            color: #666669;
+            padding: 5px;
+        }
+
+        #createAccount{
+            padding: 5px;
+        }
+
+        #createAccount input[type="text"]{
+            width:100%;
+        }
+
+        #luv-container h1{
+            font-size: 3em;
+            margin-bottom: 10px;
+            color: #4c4c56;
+        }
+
+        #createAccount label{
+            font-size: 2em;
+        }
+
+        button{
+            width: 100%;
+            margin-top: 10px;
+            background: #4c4c56;
+            border: 0;
+            color:#f2d1b2;
+        }
+
+        button:hover{
+            background: #3c3c48;    
+        }
+
+        .hideMe{
+            display: none;
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="luv-container">
+        <div id="createAccount">
+            <h1>Get Some Luv</h1>
+
+          
+                <label for="">Create a User Name</label>
+                <input id="userName" type="text" placeholder="John Doe">
+            
+            <button id="getKeys">Get Keys</button>
+            <button id="haveKeys">Have Keys</button>
+
+            <!--
+            <input type="file" id="selectSoteLocation">
+            <a download="info.txt" id="downloadlink" style="display: none">Download</a>
+            <textarea id="textbox" style="display: none">Type something here</textarea>
+            -->    
+        </div>
+        <div id="welcomeWrapper">
+                        
+        </div>
+    </div>
+    <script src="dist/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+{
+    "name": "luvtoken",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Andre McGruder",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:andreMc05/luv_stellar_wallet.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack-dev-server --entry ./app/index.js --output-filename ./dist/main.js -d",
+        "build": "webpack app/index.js dist/app.main.js",
+        "dev": "webpack-server app/index.js dist/main.js",
+        "dev-min": "webpack app/index.js dist/main.js -d",
+        "prod": "webpack app/index.js dist/main.js -p"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.0",
+        "babel-loader": "^7.1.4",
+        "babel-preset-env": "^1.6.1",
+        "webpack": "^4.5.0",
+        "webpack-dev-server": "^3.1.2"
+    },
+    "dependencies": {
+        "curlrequest": "^1.0.1",
+        "eventsource": "^1.0.5",
+        "stellar-sdk": "^0.8.0",
+        "stellar-base": "^0.7.7",
+        "webpack-cli": "^2.0.14"
+    }
+}
